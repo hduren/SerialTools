@@ -8,7 +8,7 @@ buildscript {
                 username 'admin'
                 password 'admin123'
             }
-            url "http://localhost:8081/nexus/content/groups/public/"
+            url "http://192.168.66.174:8081/nexus/content/groups/public/"
         }
         google()
         jcenter()
@@ -29,7 +29,7 @@ allprojects {
                 username 'admin'
                 password 'admin123'
             }
-            url "http://localhost:8081/nexus/content/groups/public/"
+            url "http://192.168.66.174:8081/nexus/content/groups/public/"
         }
         google()
         jcenter()
